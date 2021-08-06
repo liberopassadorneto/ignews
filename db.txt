@@ -1,0 +1,13 @@
+[
+  { "id": 1, "name": "Diego", "email": "diego@rock.com.br" },
+  { "id": 2, "name": "Dani", "email": "dani@rock.com.br" },
+  { "id": 3, "name": "Rafa", "email": "rafa@rock.com.br" }
+]
+
+// user_by_email 
+
+{
+  "diego@rock.com.br": { "id": 1, "name": "Diego", "email": "diego@rock.com.br" },
+  "dani@rock.com.br": { "id": 2, "name": "Dani", "email": "dani@rock.com.br" },
+  "rafa@rock.com.br": { "id": , "name": "Rafa", "email": "rafa@rock.com.br" },
+}

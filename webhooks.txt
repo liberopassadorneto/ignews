@@ -1,0 +1,14 @@
+# Stripe 
+
+Customer
+Subscription
+
+# Aplicação
+
+Subscriber
+
+# Integração entre Stripe e meu App
+# Integração de terceiros
+# Vou receber os eventos do Stipe em uma requisição HTTP
+# Na seguinte URL (exemplo)
+http://localhost:3000/api/stripe/webhooks 
