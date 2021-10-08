@@ -1,0 +1,15 @@
+Categorias (30)
+Produtos (1000)
+
+/camisetas
+/calcas
+/meias
+
+// Gerar as páginas estáticas durante a build
+// OR
+// Gerar a página estática no primeiro acesso
+// OR
+// fifty fifty
+
+// 30 produtos + acessados  -> gerar estáticamente durante a build
+// o restante dos produtos -> gerar no primeiro acesso do user

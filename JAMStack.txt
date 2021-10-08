@@ -1,0 +1,31 @@
+JAMStack
+
+=> JavaScript
+=> API
+=> Markup
+
+---------------------
+
+CMS (Content Management System)
+
+- WordPress
+X Drupal
+X Joomla
+X Magento (E-commerce)
+
+
+Headless CMS (Painel de admin + API [HTTP, GraphQL, SDK])
+
+# Free
+- Strapi
+- Ghost (Blog)
+- Keystone
+
+# Premium
+- GraphCMS
+- Prismic CMS
+- Contentful
+
+# E-commerce
+- Shopify
+- Saleor 

@@ -1,15 +1,12 @@
 import { fauna } from '../../../services/fauna';
-import { stripe } from '../../../services/stripe';
 import { query as q } from 'faunadb';
-import { useEffect } from 'react';
+import { stripe } from '../../../services/stripe';
 
 export async function saveSubscription(
   subscriptionId: string,
   customerId: string,
-  createAction: boolean
+  createAction = false
 ) {
-  console.log(subscriptionId, customerId);
-
   // Buscar o user no FaunaDB com o ID {customerId}, isto é, o stripe_customer_id
   const userRef = await fauna.query(
     q.Select(
@@ -28,6 +25,9 @@ export async function saveSubscription(
     status: subscription.status,
     price_id: subscription.items.data[0].price.id,
   };
+
+  console.log(subscriptionData);
+  console.log(createAction);
 
   if (createAction) {
     await fauna.query(
